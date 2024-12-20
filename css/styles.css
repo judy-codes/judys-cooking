@@ -39,6 +39,11 @@ nav a {
 nav a:hover {
     color: #ff69b4;
 }
+a {
+    cursor: pointer; /* Ensures the link is clickable */
+    text-decoration: none; /* Removes underlines if desired */
+}
+
 
 main {
     text-align: center;
